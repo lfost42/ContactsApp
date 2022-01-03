@@ -1,0 +1,60 @@
+@{
+    ViewData["App"] = "GUESTBOOK";
+}
+
+<main class="flex-shrink-0">
+        <div class="switch-field">
+            <input type="radio" id="radio-code" name="switch" value="yes" checked />
+            <label for="radio-code"><a class="nav-link" asp-controller="Home" asp-action="Code">Code</a></label>
+            <input type="radio" id="radio-tests" name="switch" value="maybe" />
+            <label for="radio-tests"><a class="nav-link" asp-controller="Home" asp-action="Tests">Tests</a></label>
+            <input type="radio" id="radio-repo" name="switch" value="no" />
+            <label for="radio-repo"><a class="nav-link" target="_blank" href="https://github.com/lfost42/Guestbook">Repo</a></label>
+        </div>
+
+        <h2 class="border-1 border-bottom border-dark px-3 py-3 appname">
+            @ViewData["App"]: A Coding Challenge
+        </h2>
+        <div class="row row-cols-1 row-cols-lg-2">
+            <div class="col-lg-8">
+                <p></p>
+                <pre class="line-numbers"><code class="language-csharp">
+using System;
+
+namespace MyApp
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      if (coffee.Empty)
+      {
+        coffee.Refill();
+      }
+      else
+      {
+      	coffee.Drink();
+      }
+    }
+  }
+}
+
+</code>
+    </pre>
+            </div>
+            <div class="col-lg-4 py-3">
+                <h5>METHOD</h5>
+                <p>Clever explanation here.</p>
+            </div>
+        </div>
+</main>
+
+<script src="/js/prism.js"></script>
+<script>
+    Prism.plugins.NormalizeWhitespace.setDefaults({
+        'remove-trailing': true,
+        'remove-indent': true,
+        'left-trim': true,
+        'right-trim': true
+    })
+</script>

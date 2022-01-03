@@ -1,0 +1,50 @@
+@model Guestbook.Models.Contact
+@inject Guestbook.Services.Interfaces.IImageService _imageService
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete the contact below?</h3>
+<div>
+    <hr />
+    <dl class="row">
+        @*<dt>
+                <img class="img-fluid" src="@_imageService.ConvertByteArrayToFile(item.ImageData, item.ImageType)" />
+            </dt>*@
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FullName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FullName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Phone)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Phone)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+    </dl>
+    <div class="row my-4">
+        <div class="col-auto">
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="Id" />
+                <input type="submit" value="Delete" class="btn btn-danger" />
+            </form>
+        </div>
+
+        <div class="col-auto">
+            <div class="form-group">
+                <a type="button" class="btn-success btn" asp-action="Index">Cancel</a>
+            </div>
+        </div>
+    </div>
+    </div>

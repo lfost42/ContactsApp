@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+:root {
+	--primary-color: #141821;
+	--secondary-color: rgb(155 128 5);
+	--dark-color: #010031;
+	--light-color: rgb(204 175 0);
+	--white-color: #dff3f0;
+	--highlight-color: rgb(224, 161, 44);
+	--danger: rgb(141 0 0);
+	--warning: rgb(154 137 2);
+	--success: rgb(71 143 110);
+}
+
+main {
+	font-family: 'Lora', serif !important;
+}
+
+div {
+	display: inline-block;
+	align-items: start;
+}
+
+.links > i, a {
+	color: var(--dark-color);
+}
+
+
+	.links > i:hover, a:hover {
+		color: var(--primary-color);
+	}
+
+table {
+	table-layout: auto;
+	width: 50%;
+}
+
+.name {
+	width: 25%;
+}
+
+.phone {
+	width: 22%;
+}
+
+.links {
+	width: 23%;
+}
+
+.mod {
+	width: 30%;
+}
+
+.switch-field {
+	display: flex;
+	margin-top: 18px;
+	margin-bottom: 18px;
+	overflow: hidden;
+}
+
+	.switch-field input {
+		position: absolute !important;
+		clip: rect(0, 0, 0, 0);
+		height: 0px;
+		width: 0px;
+		border: 0;
+		overflow: hidden;
+	}
+
+	/* default values */
+	.switch-field label {
+		background-color: var(--secondary-color);
+		color: white;
+		font-size: 14px;
+		line-height: 1;
+		text-align: center;
+		margin-right: -1px;
+		border: 5px solid var(--primary-color);
+		box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+		transition: all 0.1s ease-in-out;
+	}
+
+		.switch-field label a {
+			text-decoration: none;
+			color: white;
+			padding: 12px 50px;
+		}
+
+		.switch-field label:hover {
+			background-color: var(--primary-color);
+			color: var(--secondary-color);
+			cursor: pointer;
+		}
+
+			.switch-field label:hover a {
+				background-color: var(--secondary-color);
+				color: var(--primary-color);
+				cursor: pointer;
+			}
+
+	.switch-field input:checked + label {
+		background-color: var(--primary-color);
+		color: white;
+		box-shadow: none;
+	}
+
+		.switch-field input:checked + label a {
+			background-color: var(--primary-color);
+			color: white;
+			box-shadow: none;
+		}
+
+	.switch-field label:first-of-type {
+		border-radius: 4px 0 0 4px;
+	}
+
+	.switch-field label:last-of-type {
+		border-radius: 0 4px 4px 0;
+	}
+
+.appname {
+	font-family: 'Orbitron', sans-serif;
+}
+
+body {
+	color: var(--dark-color);
+}
+
+nav {
+	background-color: var(--primary-color);
+	color: var(--light-color);
+}
+
+	nav > a {
+		color: var(--light-color);
+	}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--secondary-color)
+}
+
+footer {
+	bottom: 0px;
+	background-color: var(--primary-color);
+	color: var(--white-color);
+	padding-right: 1rem;
+}
+
+	footer .social > a {
+		color: var(--white-color);
+		opacity: 0.75;
+	}
+
+		footer .social > a:hover {
+			opacity: 0.9;
+			color: var(--light-color);
+		}
+
+.checklist > li i {
+	color: var(--light-color)
+}
+
+
+code[class*="language-"],
+pre[class*="language-"] {
+	white-space: pre-wrap;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+main > .container {
+	padding: 60px 15px 0;
+	margin-bottom: 5rem;
+}
+
+.sticky-footer {
+	position: sticky;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.button {
+	border: var(--primary-color);
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	-webkit-appearance: none;
+}
+
+	.button:hover {
+		background-color: var(--primary-color);
+		color: white;
+		-webkit-appearance: none;
+	}
+
+	.button:active {
+		background-color: var(--secondary-color);
+		color: white;
+		-webkit-appearance: none;
+	}
+
+.btn {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	-webkit-appearance: none;
+}
+
+	.btn:hover {
+		-webkit-appearance: none;
+	}
+
+	.btn:active {
+		-webkit-appearance: none;
+	}
+
+.btn-success {
+	background-color: var(--success);
+	color: var(--white-color);
+}
+
+.btn-warning {
+	background-color: var(--secondary-color);
+	color: var(--white-color);
+}
+
+.btn-danger {
+	background-color: var(--danger);
+	color: var(--white-color);
+}
