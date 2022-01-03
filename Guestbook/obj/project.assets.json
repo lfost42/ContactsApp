@@ -7315,11 +7315,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Applications/Repos/ContactsApp/Guestbook/Guestbook/Guestbook.csproj",
+      "projectUniqueName": "/Applications/Repos/Guestbook/Guestbook/Guestbook.csproj",
       "projectName": "Guestbook",
-      "projectPath": "/Applications/Repos/ContactsApp/Guestbook/Guestbook/Guestbook.csproj",
+      "projectPath": "/Applications/Repos/Guestbook/Guestbook/Guestbook.csproj",
       "packagesPath": "/Users/lynda/.nuget/packages/",
-      "outputPath": "/Applications/Repos/ContactsApp/Guestbook/Guestbook/obj/",
+      "outputPath": "/Applications/Repos/Guestbook/Guestbook/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/lynda/.config/NuGet/NuGet.Config"
