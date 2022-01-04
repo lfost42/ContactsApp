@@ -15,19 +15,18 @@
 	font-family: 'Liu Jian Mao Cao', cursive;
 }
 
-main {
+main, footer, nav {
 	font-family: 'Lora', serif !important;
+}
+
+.links > i, a {
+	color: var(--primary-color);
 }
 
 div {
 	display: inline-block;
 	align-items: start;
 }
-
-.links > i, a {
-	color: var(--dark-color);
-}
-
 
 	.links > i:hover, a:hover {
 		color: var(--primary-color);
