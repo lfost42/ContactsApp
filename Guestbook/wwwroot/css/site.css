@@ -20,14 +20,14 @@ main, footer, nav {
 	color: var(--primary-color);
 }
 
+	.links > i:hover, a:hover {
+		color: var(--secondary-color);
+	}
+
 div {
 	display: inline-block;
 	align-items: start;
 }
-
-	.links > i:hover, a:hover {
-		color: var(--primary-color);
-	}
 
 table {
 	table-layout: auto;
