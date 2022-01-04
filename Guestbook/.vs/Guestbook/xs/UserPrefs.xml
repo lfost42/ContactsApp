@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{D4DE0ADA-992F-4F6E-B5F9-9793CC6FA6A7}|App">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Contacts/Create.cshtml">
+    <Files>
+      <File FileName="Views/Contacts/Create.cshtml" Line="9" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Guestbook" expanded="True">
+            <Node name="Guestbook" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="Contacts" expanded="True">
+                  <Node name="Create.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Guestbook PreferredExecutionTarget="/Applications/Safari.app" />
+</Properties>

@@ -10,7 +10,7 @@ Planned updates:
 
 - Add unit testing
 
-- Add option to leave a message
+- Add option to leave a message / remove phone option
 
 - Switch to popup-windows for Create/View/Edit/Delete screens
 
