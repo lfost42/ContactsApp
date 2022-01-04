@@ -8,10 +8,12 @@ https://lfost42-guestbook.herokuapp.com/
 
 Planned updates:
 
-- Popup-windows for New/Edit/Delete options
+- Add unit testing
 
-- Show image in New/Edit/Delete windows
+- Add option to leave a message
 
-- restrict creation of new contacts with the same name (overwrite/create new option)
+- Switch to popup-windows for Create/View/Edit/Delete screens
+
+- Show image in View/Edit/Delete windows
 
 - Allow image to be modified after creation
