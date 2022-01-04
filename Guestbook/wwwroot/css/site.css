@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Lora&display=swap');
 
 :root {
 	--primary-color: #141821;
-	--secondary-color: rgb(155 128 5);
+	--secondary-color: #3d5aa0;
 	--dark-color: #010031;
 	--light-color: rgb(204 175 0);
 	--white-color: #dff3f0;
@@ -11,6 +10,10 @@
 	--danger: rgb(141 0 0);
 	--warning: rgb(154 137 2);
 	--success: rgb(71 143 110);
+}
+
+.appname {
+	font-family: 'Island Moments', cursive;
 }
 
 main {
@@ -118,10 +121,6 @@ table {
 	.switch-field label:last-of-type {
 		border-radius: 0 4px 4px 0;
 	}
-
-.appname {
-	font-family: 'Orbitron', sans-serif;
-}
 
 body {
 	color: var(--dark-color);
