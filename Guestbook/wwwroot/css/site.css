@@ -182,8 +182,8 @@ main > .container {
 
 .button {
 	border: 2px solid var(--primary-color);
-	background-color: var(--primary-color);
-	color: var(--secondary-color);
+	background-color: var(--secondary-color);
+	color: var(--primary-color);
 	padding: 10px 20px;
 	text-align: center;
 	text-decoration: none;
@@ -196,14 +196,14 @@ main > .container {
 }
 
 	.button:hover {
-		color: var(--primary-color);
-		background-color: white;
+		color: var(--secondary-color);
+		background-color: var(--primary-color);
 		-webkit-appearance: none;
 	}
 
 	.button:active {
-		color: var(--primary-color);
-		background-color: white;
+		color: var(--secondary-color);
+		background-color: var(--primary-color);
 		-webkit-appearance: none;
 	}
 
