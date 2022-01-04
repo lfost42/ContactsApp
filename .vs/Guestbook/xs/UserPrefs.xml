@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{26F8B513-00FE-40C9-977A-F821E93D299C}|App">
   <MonoDevelop.Ide.Workbench ActiveDocument="Guestbook/Views/Contacts/Index.cshtml">
     <Files>
-      <File FileName="Guestbook/Views/Contacts/Index.cshtml" Line="15" Column="38" />
+      <File FileName="Guestbook/Views/Contacts/Index.cshtml" Line="15" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
