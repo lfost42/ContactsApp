@@ -2,13 +2,10 @@
 :root {
 	--primary-color: #2e2c2a;
 	--secondary-color: #a89076;
-	--dark-color: #010031;
+	--dark-color: #6b5e51;
 	--light-color: rgb(204 175 0);
 	--white-color: #dff3f0;
 	--highlight-color: rgb(224, 161, 44);
-	--danger: rgb(141 0 0);
-	--warning: rgb(154 137 2);
-	--success: rgb(71 143 110);
 }
 
 .appname {
@@ -226,7 +223,7 @@ main > .container {
 	}
 
 .btn-success {
-	background-color: var(--success);
+	background-color: var(--dark-color);
 	color: var(--white-color);
 }
 
@@ -236,6 +233,6 @@ main > .container {
 }
 
 .btn-danger {
-	background-color: var(--danger);
+	background-color: var(--primary-color);
 	color: var(--white-color);
 }
