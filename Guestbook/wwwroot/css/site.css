@@ -185,7 +185,8 @@ main > .container {
 
 .button {
 	border: var(--primary-color);
-	color: white;
+	color: var(--secondary-color);
+	background-color: var(--white-color);
 	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
@@ -193,12 +194,14 @@ main > .container {
 	font-size: 16px;
 	margin: 4px 2px;
 	cursor: pointer;
+	border-radius: 16px;
 	-webkit-appearance: none;
 }
 
 	.button:hover {
 		background-color: var(--primary-color);
-		color: white;
+		color: var(--white-color);
+
 		-webkit-appearance: none;
 	}
 
