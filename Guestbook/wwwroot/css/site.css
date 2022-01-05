@@ -43,13 +43,13 @@ table {
 }
 
 .message {
-	width:23%;
+	width:30%;
 	height:75px;
 	color:var(--primary-color);
 }
 
 .mod {
-	width: 30%;
+	width: 23%;
 }
 
 .switch-field {
