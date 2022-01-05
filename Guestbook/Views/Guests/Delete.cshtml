@@ -11,8 +11,8 @@
     <hr />
     <dl class="row">
         @*<dt>
-                <img class="img-fluid" src="@_imageService.ConvertByteArrayToFile(item.ImageData, item.ImageType)" />
-            </dt>*@
+            <img class="img-fluid" src="@_imageService.ConvertByteArrayToFile(item.ImageData, item.ImageType)" />
+        </dt>*@
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.FullName)
         </dt>
@@ -25,7 +25,12 @@
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Email)
         </dd>
-
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Message)
+        </dt>
+        <dd class="col-sm-10 message">
+            @Html.DisplayFor(model => model.Message)
+        </dd>
     </dl>
     <div class="row my-4">
         <div class="col-auto">

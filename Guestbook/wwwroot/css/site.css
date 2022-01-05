@@ -42,6 +42,12 @@ table {
 	width: 23%;
 }
 
+.message {
+	width:20%;
+	height:75px;
+	color:var(--primary-color);
+}
+
 .mod {
 	width: 30%;
 }

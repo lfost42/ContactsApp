@@ -1,23 +1,18 @@
 ﻿<Properties StartupConfiguration="{D4DE0ADA-992F-4F6E-B5F9-9793CC6FA6A7}|App">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/GuestsController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Guests/Edit.cshtml">
     <Files>
-      <File FileName="Controllers/GuestsController.cs" Line="1" Column="1" />
+      <File FileName="Views/Guests/Delete.cshtml" Line="19" Column="20" />
+      <File FileName="Views/Guests/Edit.cshtml" Line="40" Column="73" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Guestbook" expanded="True">
             <Node name="Guestbook" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="GuestsController.cs" selected="True" />
-              </Node>
-              <Node name="Data" expanded="True">
-                <Node name="Migrations" expanded="True">
-                  <Node name="20211226072430_Initial.cs" expanded="True" />
-                </Node>
-              </Node>
               <Node name="Views" expanded="True">
-                <Node name="Guests" expanded="True" />
+                <Node name="Guests" expanded="True">
+                  <Node name="Edit.cshtml" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>

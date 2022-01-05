@@ -26,6 +26,8 @@
 
             <th class="links">Links</th>
 
+            <th class="message">Message</th>
+
             <th class="mod"></th>
         </tr>
     </thead>
@@ -49,6 +51,10 @@
                         <a href="@item.Website"><i class="links far fa-link fa-2x" alt="website"></i></a>
                     </div>
                 </div>
+            </td>
+
+            <td>
+                 @Html.DisplayFor(modelItem => item.Message)
             </td>
 
             <td>
