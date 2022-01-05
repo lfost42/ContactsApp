@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Guestbook.Models
 {
-    public class Contact
+    public class Guest
     {
         [Required]
         [Display(Name = "First")]
@@ -17,8 +17,6 @@ namespace Guestbook.Models
         [Required]
         [Display(Name = "Last")]
         public string LastName { get; set; }
-
-        public string Phone { get; set; }
 
         [Required]
         [DataType(DataType.EmailAddress)]

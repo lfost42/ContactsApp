@@ -11,24 +11,24 @@ using Guestbook.Services.Interfaces;
 
 namespace Guestbook.Controllers
 {
-    public class ContactsController : Controller
+    public class GuestsController : Controller
     {
         private readonly ApplicationDbContext _context;
         private readonly IImageService _imageService;
 
-        public ContactsController(ApplicationDbContext context, IImageService imageService)
+        public GuestsController(ApplicationDbContext context, IImageService imageService)
         {
             _context = context;
             _imageService = imageService;
         }
 
-        // GET: Contacts
+        // GET: Guests
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Contacts.ToListAsync());
+            return View(await _context.Guests.ToListAsync());
         }
 
-        // GET: Contacts/Details/5
+        // GET: Guests/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -36,45 +36,45 @@ namespace Guestbook.Controllers
                 return NotFound();
             }
 
-            var contact = await _context.Contacts
+            var guest = await _context.Guests
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (contact == null)
+            if (guest == null)
             {
                 return NotFound();
             }
 
-            return View(contact);
+            return View(guest);
         }
 
-        // GET: Contacts/Create
+        // GET: Guests/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Contacts/Create
+        // POST: Guests/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("FirstName,LastName,Phone,Email,Linkedin,Website,Date,ImageData,ImageType,ImageFile,Id")] Contact contact)
+        public async Task<IActionResult> Create([Bind("FirstName,LastName,Email,Linkedin,Website,Date,ImageData,ImageType,ImageFile,Id")] Guest guest)
         {
             if (ModelState.IsValid)
             {
-                if (contact.ImageFile != null)
+                if (guest.ImageFile != null)
                 {
-                    contact.ImageData = await _imageService.ConvertFileToByteArrayAsync(contact.ImageFile);
-                    contact.ImageType = contact.ImageFile.ContentType;
+                    guest.ImageData = await _imageService.ConvertFileToByteArrayAsync(guest.ImageFile);
+                    guest.ImageType = guest.ImageFile.ContentType;
                 }
 
-                _context.Add(contact);
+                _context.Add(guest);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(contact);
+            return View(guest);
         }
 
-        // GET: Contacts/Edit/5
+        // GET: Guests/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -82,22 +82,22 @@ namespace Guestbook.Controllers
                 return NotFound();
             }
 
-            var contact = await _context.Contacts.FindAsync(id);
-            if (contact == null)
+            var guest = await _context.Guests.FindAsync(id);
+            if (guest == null)
             {
                 return NotFound();
             }
-            return View(contact);
+            return View(guest);
         }
 
-        // POST: Contacts/Edit/5
+        // POST: Guests/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("FirstName,LastName,Phone,Email,Linkedin,Website,Date,ImageData,ImageType,Id")] Contact contact)
+        public async Task<IActionResult> Edit(int id, [Bind("FirstName,LastName,Email,Linkedin,Website,Date,ImageData,ImageType,Id")] Guest guest)
         {
-            if (id != contact.Id)
+            if (id != guest.Id)
             {
                 return NotFound();
             }
@@ -106,12 +106,12 @@ namespace Guestbook.Controllers
             {
                 try
                 {
-                    _context.Update(contact);
+                    _context.Update(guest);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!ContactExists(contact.Id))
+                    if (!GuestExists(guest.Id))
                     {
                         return NotFound();
                     }
@@ -122,10 +122,10 @@ namespace Guestbook.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(contact);
+            return View(guest);
         }
 
-        // GET: Contacts/Delete/5
+        // GET: Guests/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -133,30 +133,30 @@ namespace Guestbook.Controllers
                 return NotFound();
             }
 
-            var contact = await _context.Contacts
+            var guest = await _context.Guests
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (contact == null)
+            if (guest == null)
             {
                 return NotFound();
             }
 
-            return View(contact);
+            return View(guest);
         }
 
-        // POST: Contacts/Delete/5
+        // POST: Guests/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var contact = await _context.Contacts.FindAsync(id);
-            _context.Contacts.Remove(contact);
+            var guest = await _context.Guests.FindAsync(id);
+            _context.Guests.Remove(guest);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool ContactExists(int id)
+        private bool GuestExists(int id)
         {
-            return _context.Contacts.Any(e => e.Id == id);
+            return _context.Guests.Any(e => e.Id == id);
         }
     }
 }

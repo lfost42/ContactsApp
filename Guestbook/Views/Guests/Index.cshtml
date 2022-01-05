@@ -1,4 +1,4 @@
-@model IEnumerable<Guestbook.Models.Contact>
+@model IEnumerable<Guestbook.Models.Guest>
 @inject Guestbook.Services.Interfaces.IImageService _imageService
 
 
@@ -17,14 +17,11 @@
     </div>
 </p>
 
-<table class="table container-fluid" id="ContactTable">
+<table class="table container-fluid" id="guestTable">
     <thead>
         <tr>
             <th class="name" align="center">
                 Name
-            </th>
-            <th class="phone">
-                Phone
             </th>
 
             <th class="links">Links</th>
@@ -39,9 +36,6 @@
             <td align="center">
                 <img height=75 src="@_imageService.ConvertByteArrayToFile(item.ImageData, item.ImageType)" /><br />
                 @Html.DisplayFor(modelItem => item.FullName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Phone)
             </td>
             <td>
                 <div class="row">
@@ -80,7 +74,7 @@
     <script src="//cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
     <script>
         $(document).ready(function () {
-            $('#ContactTable').DataTable();
+            $('#GuestTable').DataTable();
         });
     </script>
     <script>

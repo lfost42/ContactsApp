@@ -8,14 +8,21 @@
               <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True">
                 <Node name="Migrations" expanded="True">
-                  <Node name="20211226072430_Initial.cs" expanded="True" />
-                  <Node name="20220105033922_Date.cs" expanded="True" />
+                  <Node name="20220105051626_RenameTable.cs" selected="True" />
                 </Node>
               </Node>
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Contacts" expanded="True">
-                  <Node name="Edit.cshtml" selected="True" />
+                <Node name="Guests" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="lib" expanded="True">
+                  <Node name="jquery-validation" expanded="True">
+                    <Node name="dist" expanded="True" />
+                  </Node>
                 </Node>
               </Node>
             </Node>

@@ -847,11 +847,6 @@
 /Applications/Repos/Guestbook/Guestbook/obj/Debug/net5.0/Guestbook.TagHelpers.input.cache
 /Applications/Repos/Guestbook/Guestbook/obj/Debug/net5.0/Guestbook.TagHelpers.output.cache
 /Applications/Repos/Guestbook/Guestbook/obj/Debug/net5.0/Guestbook.RazorCoreGenerate.cache
-/Applications/Repos/Guestbook/Guestbook/obj/Debug/net5.0/Razor/Views/Contacts/Create.cshtml.g.cs
-/Applications/Repos/Guestbook/Guestbook/obj/Debug/net5.0/Razor/Views/Contacts/Delete.cshtml.g.cs
-/Applications/Repos/Guestbook/Guestbook/obj/Debug/net5.0/Razor/Views/Contacts/Details.cshtml.g.cs
-/Applications/Repos/Guestbook/Guestbook/obj/Debug/net5.0/Razor/Views/Contacts/Edit.cshtml.g.cs
-/Applications/Repos/Guestbook/Guestbook/obj/Debug/net5.0/Razor/Views/Contacts/Index.cshtml.g.cs
 /Applications/Repos/Guestbook/Guestbook/obj/Debug/net5.0/Razor/Views/Home/Code.cshtml.g.cs
 /Applications/Repos/Guestbook/Guestbook/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs
 /Applications/Repos/Guestbook/Guestbook/obj/Debug/net5.0/Razor/Views/Home/Tests.cshtml.g.cs
@@ -868,3 +863,9 @@
 /Applications/Repos/Guestbook/Guestbook/obj/Debug/net5.0/ref/Guestbook.dll
 /Applications/Repos/Guestbook/Guestbook/obj/Debug/net5.0/Guestbook.pdb
 /Applications/Repos/Guestbook/Guestbook/obj/Debug/net5.0/Guestbook.genruntimeconfig.cache
+/Applications/Repos/Guestbook/Guestbook/obj/Debug/net5.0/Guestbook.csproj.AssemblyReference.cache
+/Applications/Repos/Guestbook/Guestbook/obj/Debug/net5.0/Razor/Views/Guests/Create.cshtml.g.cs
+/Applications/Repos/Guestbook/Guestbook/obj/Debug/net5.0/Razor/Views/Guests/Delete.cshtml.g.cs
+/Applications/Repos/Guestbook/Guestbook/obj/Debug/net5.0/Razor/Views/Guests/Details.cshtml.g.cs
+/Applications/Repos/Guestbook/Guestbook/obj/Debug/net5.0/Razor/Views/Guests/Edit.cshtml.g.cs
+/Applications/Repos/Guestbook/Guestbook/obj/Debug/net5.0/Razor/Views/Guests/Index.cshtml.g.cs

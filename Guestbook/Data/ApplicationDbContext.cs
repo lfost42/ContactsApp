@@ -14,7 +14,7 @@ namespace Guestbook.Data
         { 
         }
 
-        public DbSet<Contact> Contacts { get; set; }
+        public DbSet<Guest> Guests { get; set; }
 
     }
 }
