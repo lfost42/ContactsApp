@@ -1,16 +1,17 @@
 ﻿<Properties StartupConfiguration="{D4DE0ADA-992F-4F6E-B5F9-9793CC6FA6A7}|App">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Data/Migrations/20220105065509_Message.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Guests/Index.cshtml">
     <Files>
-      <File FileName="Data/Migrations/20220105065509_Message.cs" Line="1" Column="1" />
+      <File FileName="Views/Guests/Details.cshtml" Line="18" Column="54" />
+      <File FileName="Views/Guests/Index.cshtml" Line="33" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Guestbook" expanded="True">
             <Node name="Guestbook" expanded="True">
-              <Node name="Data" expanded="True">
-                <Node name="Migrations" expanded="True">
-                  <Node name="20220105065509_Message.cs" selected="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Guests" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
                 </Node>
               </Node>
             </Node>
