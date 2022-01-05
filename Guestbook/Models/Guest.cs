@@ -38,6 +38,9 @@ namespace Guestbook.Models
         public string ImageType { get; set; }
         public int Id { get; set; }
 
+        [MaxLength(255)]
+        public string Message { get; set; }
+
         [NotMapped]
         [Display(Name = "Name")]
         public string FullName { get { return $"{LastName}, {FirstName}"; } }

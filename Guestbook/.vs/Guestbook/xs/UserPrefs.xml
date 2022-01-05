@@ -1,28 +1,16 @@
 ﻿<Properties StartupConfiguration="{D4DE0ADA-992F-4F6E-B5F9-9793CC6FA6A7}|App">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Data/Migrations/20220105065509_Message.cs">
+    <Files>
+      <File FileName="Data/Migrations/20220105065509_Message.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Guestbook" expanded="True">
             <Node name="Guestbook" expanded="True">
-              <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True">
                 <Node name="Migrations" expanded="True">
-                  <Node name="20220105051626_RenameTable.cs" selected="True" />
-                </Node>
-              </Node>
-              <Node name="Models" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Guests" expanded="True" />
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True" />
-              </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True" />
-                <Node name="lib" expanded="True">
-                  <Node name="jquery-validation" expanded="True">
-                    <Node name="dist" expanded="True" />
-                  </Node>
+                  <Node name="20220105065509_Message.cs" selected="True" />
                 </Node>
               </Node>
             </Node>

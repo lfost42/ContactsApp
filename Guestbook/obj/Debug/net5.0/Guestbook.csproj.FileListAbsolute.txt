@@ -869,3 +869,4 @@
 /Applications/Repos/Guestbook/Guestbook/obj/Debug/net5.0/Razor/Views/Guests/Details.cshtml.g.cs
 /Applications/Repos/Guestbook/Guestbook/obj/Debug/net5.0/Razor/Views/Guests/Edit.cshtml.g.cs
 /Applications/Repos/Guestbook/Guestbook/obj/Debug/net5.0/Razor/Views/Guests/Index.cshtml.g.cs
+/Applications/Repos/Guestbook/Guestbook/bin/Debug/net5.0/Guestbook
