@@ -34,6 +34,7 @@ namespace Guestbook.Data.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Contacts");
+
         }
     }
 }

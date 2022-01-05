@@ -31,7 +31,7 @@ namespace Guestbook.Models
         public string Website { get; set; }
 
         [DataType(DataType.Date)]
-        public DateTime BirthDate { get; set; }
+        public DateTime Date { get; set; }
 
         [NotMapped]
         [Display(Name = "Image")]

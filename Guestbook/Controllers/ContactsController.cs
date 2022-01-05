@@ -57,7 +57,7 @@ namespace Guestbook.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("FirstName,LastName,Phone,Email,Linkedin,Website,BirthDate,ImageData,ImageType,ImageFile,Id")] Contact contact)
+        public async Task<IActionResult> Create([Bind("FirstName,LastName,Phone,Email,Linkedin,Website,Date,ImageData,ImageType,ImageFile,Id")] Contact contact)
         {
             if (ModelState.IsValid)
             {
@@ -95,7 +95,7 @@ namespace Guestbook.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("FirstName,LastName,Phone,Email,Linkedin,Website,BirthDate,ImageData,ImageType,Id")] Contact contact)
+        public async Task<IActionResult> Edit(int id, [Bind("FirstName,LastName,Phone,Email,Linkedin,Website,Date,ImageData,ImageType,Id")] Contact contact)
         {
             if (id != contact.Id)
             {
