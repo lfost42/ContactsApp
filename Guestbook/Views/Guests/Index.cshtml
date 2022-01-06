@@ -37,44 +37,46 @@
     <tbody>
         @foreach (var item in Model)
         {
-        <tr>
-            <td align="center">
-                <img height=75 src="@_imageService.ConvertByteArrayToFile(item.ImageData, item.ImageType)" /><br />
-                @Html.DisplayFor(modelItem => item.FullName)
-            </td>
-            <td>
-                <div class="row">
-                    <div class="mr-1 col-lg-4 col-md-4 col-sm-12">
-                        <a href="mailto:@item.Email"><i class="links far fa-envelope fa-2x" alt="email"></i></a>
+            <tr>
+                <td align="center">
+                    <div class="photo">
+                        <img height=75 src="@_imageService.ConvertByteArrayToFile(item.ImageData, item.ImageType)" /><br />
+                        @Html.DisplayFor(modelItem => item.FullName)
                     </div>
-                    <div class="mr-1 col-lg-4 col-md-4 col-sm-12">
-                        <a href="@item.Linkedin"><i class="links fab fa-linkedin fa-2x" alt="linkedin"></i></a>
+                </td>
+                <td>
+                    <div class="row">
+                        <div class="mr-1 col-lg-4 col-md-4 col-sm-12">
+                            <a href="mailto:@item.Email"><i class="links far fa-envelope fa-2x" alt="email"></i></a>
+                        </div>
+                        <div class="mr-1 col-lg-4 col-md-4 col-sm-12">
+                            <a href="@item.Linkedin"><i class="links fab fa-linkedin fa-2x" alt="linkedin"></i></a>
+                        </div>
+                        <div class="mr-1 col-lg-4 col-md-4 col-sm-12">
+                            <a href="@item.Website"><i class="links far fa-link fa-2x" alt="website"></i></a>
+                        </div>
                     </div>
-                    <div class="mr-1 col-lg-4 col-md-4 col-sm-12">
-                        <a href="@item.Website"><i class="links far fa-link fa-2x" alt="website"></i></a>
-                    </div>
-                </div>
-            </td>
+                </td>
 
-            <td>
-                 @Html.DisplayFor(modelItem => item.Message)
-            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Message)
+                </td>
 
-            <td>
-                <div class="row">
-                    <div class="mr-1 mb-1 col-md-4">
-                        <a type="button" class="btn-success btn" asp-action="Details" asp-route-id="@item.Id" alt="view"><i class="fas fa-eye"></i></a>
+                <td>
+                    <div class="row">
+                        <div class="mr-1 mb-1 col-md-4">
+                            <a type="button" class="btn-success btn" asp-action="Details" asp-route-id="@item.Id" alt="view"><i class="fas fa-eye"></i></a>
+                        </div>
+                        <div class="mr-1 mb-1 col-md-4">
+                            <a type="button" class="btn-warning btn" asp-action="Edit" asp-route-id="@item.Id" alt="edit"><i class="fas fa-edit"></i></a>
+                        </div>
+                        <div class="mr-1 col-md-3 col-md-4">
+                            <a type="button" class="btn-danger btn" asp-action="Delete" asp-route-id="@item.Id" alt="delete"><i class="fa fa-trash"></i></a>
+                        </div>
                     </div>
-                    <div class="mr-1 mb-1 col-md-4">
-                        <a type="button" class="btn-warning btn" asp-action="Edit" asp-route-id="@item.Id" alt="edit"><i class="fas fa-edit"></i></a>
-                    </div>
-                    <div class="mr-1 col-md-3 col-md-4">
-                        <a type="button" class="btn-danger btn" asp-action="Delete" asp-route-id="@item.Id" alt="delete"><i class="fa fa-trash"></i></a>
-                    </div>
-                </div>
-            </td>
+                </td>
 
-        </tr>
+            </tr>
 
         }
 
@@ -83,13 +85,10 @@
 
 @section scripts {
     <script src="//cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
-    <script>
-        $(document).ready(function () {
+    <script>$(document).ready(function () {
             $('#GuestTable').DataTable();
-        });
-    </script>
-    <script>
-        $(function () {
+        });</script>
+    <script>$(function () {
             $('a').each(function () {
                 (!$(this).attr('href')) ? $(this).hide() : $(this).show();
             });

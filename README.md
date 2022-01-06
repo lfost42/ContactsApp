@@ -10,8 +10,6 @@ Planned updates:
 
 - Add unit testing
 
-- Add default picture
-
 - Switch to popup-windows for Create/View/Edit/Delete screens
 
 - Show image in View/Edit/Delete windows

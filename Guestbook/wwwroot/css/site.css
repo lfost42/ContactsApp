@@ -23,6 +23,13 @@ main, footer, nav {
 	.links > i:hover, a:hover {
 		color: var(--secondary-color);
 	}
+.photo {
+	background-image: url('/img/default.jpeg');
+	background-size: 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position: top;
+}
 
 div {
 	display: inline-block;

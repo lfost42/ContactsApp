@@ -1,14 +1,28 @@
 ﻿<Properties StartupConfiguration="{D4DE0ADA-992F-4F6E-B5F9-9793CC6FA6A7}|App">
-  <MonoDevelop.Ide.Workbench ActiveDocument="wwwroot/css/site.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Guests/Index.cshtml">
     <Files>
-      <File FileName="wwwroot/css/site.css" Line="4" Column="29" />
+      <File FileName="Views/Guests/Index.cshtml" Line="42" Column="38" />
+      <File FileName="Models/Guest.cs" Line="39" Column="36" />
+      <File FileName="wwwroot/css/site.css" Line="26" Column="9" />
+      <File FileName="Controllers/GuestsController.cs" Line="93" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Guestbook" expanded="True">
             <Node name="Guestbook" expanded="True">
-              <Node name="Dependencies" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Guests" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="img" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
