@@ -27,8 +27,7 @@ main, footer, nav {
 	background-image: url('/img/default.jpeg');
 	background-size: 50px;
 	background-repeat: no-repeat;
-	background-position: center;
-	background-position: top;
+	background-position: center center;
 }
 
 div {

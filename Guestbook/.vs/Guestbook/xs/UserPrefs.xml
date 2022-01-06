@@ -1,10 +1,7 @@
 ﻿<Properties StartupConfiguration="{D4DE0ADA-992F-4F6E-B5F9-9793CC6FA6A7}|App">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Guests/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="wwwroot/css/site.css">
     <Files>
-      <File FileName="Views/Guests/Index.cshtml" Line="42" Column="38" />
-      <File FileName="Models/Guest.cs" Line="39" Column="36" />
-      <File FileName="wwwroot/css/site.css" Line="26" Column="9" />
-      <File FileName="Controllers/GuestsController.cs" Line="93" Column="31" />
+      <File FileName="wwwroot/css/site.css" Line="31" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
