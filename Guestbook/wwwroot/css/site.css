@@ -24,7 +24,7 @@ main, footer, nav {
 		color: var(--secondary-color);
 	}
 .photo {
-	background-image: url('/img/default.jpeg');
+	background-image: url('/img/default.png');
 	background-size: 60px;
 	background-repeat: no-repeat;
 	background-position: center top;

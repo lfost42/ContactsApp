@@ -13,9 +13,8 @@
                 <Node name="Guests" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True">
-                  <Node name="site.css" selected="True" />
-                </Node>
+                <Node name="css" expanded="True" />
+                <Node name="img" expanded="True" />
               </Node>
             </Node>
           </Node>
