@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{D4DE0ADA-992F-4F6E-B5F9-9793CC6FA6A7}|App">
   <MonoDevelop.Ide.Workbench ActiveDocument="wwwroot/css/site.css">
     <Files>
-      <File FileName="wwwroot/css/site.css" Line="31" Column="2" />
+      <File FileName="wwwroot/css/site.css" Line="28" Column="20" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,12 +12,12 @@
               <Node name="Models" expanded="True" />
               <Node name="Services" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Guests" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
+                <Node name="Guests" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True" />
+                <Node name="css" expanded="True">
+                  <Node name="site.css" selected="True" />
+                </Node>
                 <Node name="img" expanded="True" />
               </Node>
             </Node>
