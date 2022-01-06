@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{D4DE0ADA-992F-4F6E-B5F9-9793CC6FA6A7}|App">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Guests/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Guests/Create.cshtml">
     <Files>
-      <File FileName="Views/Guests/Index.cshtml" Line="32" Column="1" />
+      <File FileName="Views/Guests/Create.cshtml" Line="48" Column="16" />
+      <File FileName="Views/Guests/Edit.cshtml" Line="39" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +11,7 @@
             <Node name="Guestbook" expanded="True">
               <Node name="Views" expanded="True">
                 <Node name="Guests" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
+                  <Node name="Create.cshtml" selected="True" />
                 </Node>
               </Node>
             </Node>
