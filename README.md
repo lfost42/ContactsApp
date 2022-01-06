@@ -1,6 +1,6 @@
 # Guestbook
 
-A study in image services, and CRUD applications, and object-relational mapping with Entity Framework and PostgreSQL.
+A study in image services, CRUD applications, and object-relational mapping with Entity Framework and PostgreSQL.
 
 https://lfost42-guestbook.herokuapp.com/
 
