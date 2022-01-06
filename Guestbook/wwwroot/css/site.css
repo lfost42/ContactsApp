@@ -49,8 +49,11 @@ table {
 }
 
 .message {
-	width:32%;
-	height:75px;
+	width: 32%;
+	padding-left: 2px;
+	height: 100px;
+	width: 300px;
+		overflow-y:auto;
 	color:var(--primary-color);
 }
 
