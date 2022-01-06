@@ -45,19 +45,20 @@ table {
 }
 
 .links {
-	width: 18%;
+	width: 20%;
 }
 
 .message {
-	width: 32%;
+	width: 30%;
+	min-width: 250px;
 	padding-left: 2px;
 	height: 100px;
-		overflow-y:auto;
-	color:var(--primary-color);
+	overflow-y: auto;
+	color: var(--primary-color);
 }
 
 .mod {
-	width: 23%;
+	width: 25%;
 }
 
 .switch-field {
