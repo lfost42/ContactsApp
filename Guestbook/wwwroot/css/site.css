@@ -4,7 +4,7 @@
 	--secondary-color: #a89076;
 	--dark-color: #6b5e51;
 	--light-color: rgb(204 175 0);
-	--white-color: #dff3f0;
+	--white-color: beige;
 	--highlight-color: rgb(224, 161, 44);
 }
 
@@ -198,8 +198,9 @@ main > .container {
 }
 
 	.button:hover {
-		color: var(--secondary-color);
-		background-color: var(--primary-color);
+		background-color: var(--white-color);
+		color: var(--primary-color);
+		box-shadow: 5px 5px rgb(169, 195, 197);
 		-webkit-appearance: none;
 	}
 
@@ -228,13 +229,29 @@ main > .container {
 	background-color: var(--dark-color);
 	color: var(--white-color);
 }
+	.btn-success:hover {
+		background-color: var(--white-color);
+		color:var(--primary-color);
+		box-shadow: 5px 5px rgb(169, 195, 197);
+	}
 
 .btn-warning {
 	background-color: var(--secondary-color);
 	color: var(--white-color);
 }
-
+	.btn-warning:hover {
+		background-color: var(--white-color);
+		color: var(--primary-color);
+		box-shadow: 5px 5px rgb(169, 195, 197);
+	}
+	
+	
 .btn-danger {
 	background-color: var(--primary-color);
 	color: var(--white-color);
 }
+	.btn-danger:hover {
+		background-color: var(--white-color);
+		color: var(--primary-color);
+		box-shadow: 5px 5px rgb(169, 195, 197);
+	}
