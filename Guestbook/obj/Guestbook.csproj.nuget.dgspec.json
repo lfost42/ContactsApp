@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Applications/Repos/Guestbook/Guestbook/Guestbook.csproj": {}
+    "/Users/lynda/Desktop/repo/Guestbook/Guestbook/Guestbook.csproj": {}
   },
   "projects": {
-    "/Applications/Repos/Guestbook/Guestbook/Guestbook.csproj": {
+    "/Users/lynda/Desktop/repo/Guestbook/Guestbook/Guestbook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Applications/Repos/Guestbook/Guestbook/Guestbook.csproj",
+        "projectUniqueName": "/Users/lynda/Desktop/repo/Guestbook/Guestbook/Guestbook.csproj",
         "projectName": "Guestbook",
-        "projectPath": "/Applications/Repos/Guestbook/Guestbook/Guestbook.csproj",
+        "projectPath": "/Users/lynda/Desktop/repo/Guestbook/Guestbook/Guestbook.csproj",
         "packagesPath": "/Users/lynda/.nuget/packages/",
-        "outputPath": "/Applications/Repos/Guestbook/Guestbook/obj/",
+        "outputPath": "/Users/lynda/Desktop/repo/Guestbook/Guestbook/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/lynda/.config/NuGet/NuGet.Config"

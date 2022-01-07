@@ -16,13 +16,6 @@ main, footer, nav {
 	font-family: 'Lora', serif !important;
 }
 
-.links > i, a {
-	color: var(--primary-color);
-}
-
-	.links > i:hover, a:hover {
-		color: var(--secondary-color);
-	}
 .photo {
 	background-image: url('/img/default.png');
 	background-size: 75px;
@@ -157,15 +150,23 @@ footer {
 	padding-right: 1rem;
 }
 
-	footer img .social > a {
+	footer .social > a {
 		color: var(--white-color);
 		opacity: 0.75;
 	}
 
-		footer img .social > a:hover {
+		footer .social > a:hover {
 			opacity: 0.9;
-			color: var(--white-color);
+			color: var(--secondary-color);
 		}
+
+.links > i, a {
+	color: var(--primary-color);
+}
+
+	.links > i:hover, a:hover {
+		color: var(--secondary-color);
+	}
 
 .checklist > li i {
 	color: var(--light-color)

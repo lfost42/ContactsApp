@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xl+hVf48CZJpQt+Mh+36py/OY6Uw5eZ0eg7Qw3FYQ7idefJsxS4dmAcLyPQgndRT3BeZA+IY9u+/GJ0CgJpYPQ==",
+  "dgSpecHash": "7B23FYA7yenyIASAGyT3bWHYoL9sESEM2LiCGeaZ4I4mGEqlWhdBZBmQalaOt/Z3fD6YHkejnWW8S1nBqxxLJg==",
   "success": true,
-  "projectFilePath": "/Applications/Repos/Guestbook/Guestbook/Guestbook.csproj",
+  "projectFilePath": "/Users/lynda/Desktop/repo/Guestbook/Guestbook/Guestbook.csproj",
   "expectedPackageFiles": [
     "/Users/lynda/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/lynda/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
