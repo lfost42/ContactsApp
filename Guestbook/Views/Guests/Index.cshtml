@@ -39,9 +39,11 @@
         {
             <tr>
                 <td align="center">
-                    <div class="photo">
-                        <img height=75 src="@_imageService.ConvertByteArrayToFile(item.ImageData, item.ImageType)" /><br />
-                        @Html.DisplayFor(modelItem => item.FullName)
+                    <div class="photo col-12">
+                        <img height=75 src="@_imageService.ConvertByteArrayToFile(item.ImageData, item.ImageType)" />
+                    </div>
+                    <div class="col-12">
+                            @Html.DisplayFor(modelItem => item.FullName)
                     </div>
                 </td>
                 <td>

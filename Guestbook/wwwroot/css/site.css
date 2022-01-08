@@ -18,10 +18,10 @@ main, footer, nav {
 
 .photo {
 	background-image: url('/img/default.png');
-	background-size: 75px;
+	background-size: 4.7rem;
 	background-repeat: no-repeat;
 	background-position: center top;
-	height:75px;
+	height:4.7rem;
 }
 
 div {
