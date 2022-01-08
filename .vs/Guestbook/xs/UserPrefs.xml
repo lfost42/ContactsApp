@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{26F8B513-00FE-40C9-977A-F821E93D299C}|App">
   <MonoDevelop.Ide.Workbench ActiveDocument="Guestbook/wwwroot/css/site.css">
     <Files>
-      <File FileName="Guestbook/wwwroot/css/site.css" Line="160" Column="17" />
-      <File FileName="Guestbook/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="Guestbook/wwwroot/css/site.css" Line="23" Column="34" />
+      <File FileName="Guestbook/Views/Shared/_Layout.cshtml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
