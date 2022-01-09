@@ -8,9 +8,7 @@
 
 <hr />
 <div class="col-md-6 my-3">
-    @{var ImageData = Model.ImageData;}
-    @{string ImageType = Model.ImageType;}
-    <img width=350 src="@_imageService.ConvertByteArrayToFile(ImageData, ImageType)"/>
+    <img width=350 src="@_imageService.ConvertByteArrayToFile(Model.ImageData, Model.ImageType)"/>
 </div>
 
 <div class="row">

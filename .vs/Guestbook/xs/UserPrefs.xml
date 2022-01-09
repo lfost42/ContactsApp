@@ -1,9 +1,5 @@
 ﻿<Properties StartupConfiguration="{26F8B513-00FE-40C9-977A-F821E93D299C}|App">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Guestbook/Views/Guests/Index.cshtml">
-    <Files>
-      <File FileName="Guestbook/wwwroot/css/site.css" Line="23" Column="4" />
-      <File FileName="Guestbook/Views/Guests/Index.cshtml" Line="22" Column="12" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -11,7 +7,7 @@
             <Node name="Guestbook" expanded="True">
               <Node name="Views" expanded="True">
                 <Node name="Guests" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
+                  <Node name="Delete.cshtml" selected="True" />
                 </Node>
               </Node>
               <Node name="wwwroot" expanded="True">
