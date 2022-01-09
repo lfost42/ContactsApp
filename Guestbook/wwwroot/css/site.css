@@ -56,10 +56,6 @@ table {
 	width: 25%;
 }
 
-.col {
-	padding: 0 !important;
-}
-
 .switch-field {
 	display: flex;
 	margin-top: 18px;
@@ -199,7 +195,6 @@ main > .container {
 }
 
 .button {
-	margin-left: 0;
 	border: 2px solid var(--primary-color);
 	background-color: var(--secondary-color);
 	color: var(--primary-color);
@@ -230,8 +225,6 @@ main > .container {
 
 .btn {
 	color: white;
-	margin-left: 0;
-	text-align: center;
 	text-decoration: none;
 	-webkit-appearance: none;
 }

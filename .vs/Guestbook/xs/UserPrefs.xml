@@ -1,9 +1,7 @@
 ﻿<Properties StartupConfiguration="{26F8B513-00FE-40C9-977A-F821E93D299C}|App">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Guestbook/Views/Guests/Details.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Guestbook/Views/Guests/Edit.cshtml">
     <Files>
-      <File FileName="Guestbook/Views/Guests/Details.cshtml" Line="46" Column="17" />
-      <File FileName="Guestbook/wwwroot/css/site.css" Line="233" Column="21" />
-      <File FileName="Guestbook/Views/Guests/Edit.cshtml" Line="58" Column="32" />
+      <File FileName="Guestbook/Views/Guests/Edit.cshtml" Line="59" Column="84" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,10 +14,11 @@
               </Node>
               <Node name="Views" expanded="True">
                 <Node name="Guests" expanded="True">
-                  <Node name="Details.cshtml" selected="True" />
+                  <Node name="Edit.cshtml" selected="True" />
                 </Node>
               </Node>
               <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
                 <Node name="js" expanded="True" />
               </Node>
             </Node>
