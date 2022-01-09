@@ -20,7 +20,7 @@
 <table class="table" id="GuestTable">
     <thead>
         <tr>
-            <th class="name" align="center">
+            <th class="name">
                 Name
             </th>
 
@@ -38,12 +38,12 @@
         @foreach (var item in Model)
         {
             <tr>
-                <td align="center">
-                    <div class="photo col-12">
+                <td>
+                    <div class="photo col-12" style="text-align:center">
                         <img height=75 src="@_imageService.ConvertByteArrayToFile(item.ImageData, item.ImageType)" />
                     </div>
-                    <div class="col-12">
-                            @Html.DisplayFor(modelItem => item.FullName)
+                    <div class="col-12" style="text-align:center">
+                        @Html.DisplayFor(modelItem => item.FullName)
                     </div>
                 </td>
                 <td>
