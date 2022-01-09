@@ -1304,3 +1304,4 @@
 /Users/lynda/Desktop/repo/Guestbook/Guestbook/obj/Debug/net5.0/ref/Guestbook.dll
 /Users/lynda/Desktop/repo/Guestbook/Guestbook/obj/Debug/net5.0/Guestbook.pdb
 /Users/lynda/Desktop/repo/Guestbook/Guestbook/obj/Debug/net5.0/Guestbook.genruntimeconfig.cache
+/Users/lynda/Desktop/repo/Guestbook/Guestbook/obj/Debug/net5.0/Guestbook.csproj.AssemblyReference.cache

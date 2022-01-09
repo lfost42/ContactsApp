@@ -56,6 +56,10 @@ table {
 	width: 25%;
 }
 
+.col {
+	padding: 0 !important;
+}
+
 .switch-field {
 	display: flex;
 	margin-top: 18px;
@@ -222,8 +226,10 @@ main > .container {
 		-webkit-appearance: none;
 	}
 
+
 .btn {
 	color: white;
+	padding-left: 0;
 	text-align: center;
 	text-decoration: none;
 	-webkit-appearance: none;
