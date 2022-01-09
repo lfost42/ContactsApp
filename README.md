@@ -23,4 +23,4 @@ The app started off as a contacts database with name, birthdate, phone number, e
 While converting the app to a guestbook, I didn't expect users to want to leave their birthdate so I changed it to date. I also didn't expect users to want to post their phone number in the open so that column was deleted. At some point I decided to add the Message column which I would have renamed the phone number column if I had known ahead of time I was going to need it. 
 
 ## Issues:
-I think Image properties should have been place in another class. I will revisit that when I study image services further. 
+I think Image properties should have been place in another class to follow SRP. I will revisit that when I study image services further. 
