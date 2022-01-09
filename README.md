@@ -10,11 +10,7 @@ https://lfost42-guestbook.herokuapp.com/
 
 - Add unit testing
 
-- Sort entries by date created
-
-- Make date automatically stamped with the date of creation
-
-- Switch to popup-windows for Create/View/Edit/Delete screens (SweetAlert?)
+- Popup-windows for Create/View/Edit/Delete screens (SweetAlert?)
 
 - Allow image to be modified after creation
 
