@@ -8,6 +8,8 @@ https://lfost42-guestbook.herokuapp.com/
 
 ## Planned updates:
 
+- Implement a class library
+
 - Add unit testing
 
 - Popup-windows for Create/View/Edit/Delete screens (SweetAlert?)
