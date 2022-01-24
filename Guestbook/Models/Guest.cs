@@ -33,7 +33,7 @@ namespace Guestbook.Models
 
         [NotMapped]
         [Display(Name = "Name")]
-        public string FullName { get { return $"{LastName}, {FirstName}"; } }
+        public string FullName => $"{LastName}, {FirstName}";
 
         [NotMapped]
         [Display(Name = "Image")]

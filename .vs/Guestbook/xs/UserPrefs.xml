@@ -1,16 +1,16 @@
 ﻿<Properties StartupConfiguration="{26F8B513-00FE-40C9-977A-F821E93D299C}|App">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Guestbook/Controllers/HomeController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Guestbook/Models/Guest.cs">
     <Files>
-      <File FileName="Guestbook/Controllers/GuestsController.cs" Line="1" Column="1" />
-      <File FileName="Guestbook/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="Guestbook/Models/Guest.cs" Line="41" Column="46" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Guestbook" expanded="True">
             <Node name="Guestbook" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="HomeController.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Guest.cs" selected="True" />
               </Node>
             </Node>
           </Node>
