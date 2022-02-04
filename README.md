@@ -2,7 +2,7 @@
 
 A study in image services, CRUD applications, and object-relational mapping with Entity Framework and PostgreSQL.
 
-This is my first full-stack project. While functional, I am putting it aside while I study software design and will restructure using the DAO design pattern to make each component more modular and scalable. 
+This is my first full-stack project, currently a minimal viable product. I am putting it aside while I study software design and will restructure using the DAO design pattern to make it more modular, scalable, and maintainable. 
 
 https://lfost42-guestbook.herokuapp.com/
 
