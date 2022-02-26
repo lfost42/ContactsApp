@@ -24,4 +24,8 @@
     <None Remove="Dapper" />
     <None Remove="System.Data.SqlClient" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GuestbookLibrary\GuestbookLibrary.csproj" />
+  </ItemGroup>
 </Project>

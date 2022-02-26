@@ -17,12 +17,14 @@ namespace GuestbookLibrary.Databases
             _config = config;
         }
 
+        public IConfiguration Config => _config;
+
         public List<T> LoadData<T, U>(string sqlStatement,
                                       U parameters,
                                       string connectionStringName,
                                       bool isStoredProcedure = false)
         {
-            string connectionString = _config.GetConnectionString(connectionStringName);
+            string connectionString = Config.GetConnectionString(connectionStringName);
             CommandType commandType = CommandType.Text;
 
             if (isStoredProcedure == true)
@@ -43,7 +45,7 @@ namespace GuestbookLibrary.Databases
                                 string connectionStringName,
                                 bool isStoredProcedure = false)
         {
-            string connectionString = _config.GetConnectionString(connectionStringName);
+            string connectionString = Config.GetConnectionString(connectionStringName);
             CommandType commandType = CommandType.Text;
 
             if (isStoredProcedure == true)

@@ -22,6 +22,11 @@ namespace GuestbookLibrary.Models
         [DataType(DataType.Html)]
         [Display(Name = "LinkedIn")]
         public string Linkedin { get; set; }
+
+        [DataType(DataType.Html)]
+        [Display(Name = "Twitter")]
+        public string Twitter { get; set; }
+
         [DataType(DataType.Html)]
         public string Website { get; set; }
 
@@ -34,12 +39,5 @@ namespace GuestbookLibrary.Models
         [NotMapped]
         [Display(Name = "Name")]
         public string FullName => $"{LastName}, {FirstName}";
-
-        [NotMapped]
-        [Display(Name = "Image")]
-        public IFormFile ImageFile { get; set; }
-        public byte[] ImageData { get; set; }
-        public string ImageType { get; set; }
-        public int Id { get; set; }
     }
 }
