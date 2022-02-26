@@ -1,23 +1,28 @@
 ﻿<Properties StartupConfiguration="{26F8B513-00FE-40C9-977A-F821E93D299C}|App">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Guestbook/Models/Guest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GuestbookLibrary/Databases/SqlDataAccess.cs">
     <Files>
-      <File FileName="Guestbook/Models/Guest.cs" Line="41" Column="46" />
+      <File FileName="GuestbookLibrary/Databases/SqlDataAccess.cs" Line="12" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Guestbook" expanded="True">
             <Node name="Guestbook" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Guest.cs" selected="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+            </Node>
+            <Node name="GuestbookLibrary" expanded="True">
+              <Node name="Databases" expanded="True">
+                <Node name="SqlDataAccess.cs" selected="True" />
               </Node>
+              <Node name="Models" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.GuestbookLibrary FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
