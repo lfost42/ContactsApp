@@ -12,7 +12,6 @@
     <None Remove="System.Data.SqlClient" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Databases\" />
     <Folder Include="Data\" />
   </ItemGroup>
   <ItemGroup>

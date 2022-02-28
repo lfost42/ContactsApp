@@ -1,0 +1,12 @@
+﻿CREATE TABLE [dbo].[Guests]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+	[FirstName] VARCHAR(50) NOT NULL, 
+	[LastName] VARCHAR(50) NOT NULL, 
+	[Email] VARCHAR(50) NOT NULL, 
+	[Linkedin] VARCHAR(50) NULL, 
+	[Twitter] VARCHAR(50) NULL, 
+	[Website] NVARCHAR(50) NULL, 
+	[ImageId] INT NULL, 
+	CONSTRAINT [FK_Guests_ToTable] FOREIGN KEY (ImageId) REFERENCES Guests(Id)
+)
