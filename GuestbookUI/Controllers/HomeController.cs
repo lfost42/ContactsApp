@@ -1,4 +1,4 @@
-﻿using GuestbookUI.Models;
+using Guestbook.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GuestbookUI.Controllers
+namespace Guestbook.Controllers
 {
     public class HomeController : Controller
     {
@@ -23,7 +23,16 @@ namespace GuestbookUI.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Tests()
+        {
+            return View();
+        }
+
+        public IActionResult Code()
+        {
+            return View();
+        }
+        public IActionResult App()
         {
             return View();
         }

@@ -1,6 +1,10 @@
+using Guestbook.Data;
+using Guestbook.Services;
+using Guestbook.Services.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -9,7 +13,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GuestbookUI
+namespace Guestbook
 {
     public class Startup
     {
@@ -21,8 +25,22 @@ namespace GuestbookUI
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
+        // Registers ApplicationDbContext as a service for talking to our database
         public void ConfigureServices(IServiceCollection services)
         {
+            //default connection string
+            //services.AddDbContext<ApplicationDbContext>(options =>
+            //    options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
+
+            //start heroku
+            services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseNpgsql(DataUtility.GetConnectionString(Configuration)));
+
+            services.AddScoped<IImageService, BasicImageService>();
+            //end heroku
+
+            services.AddScoped<IImageService, BasicImageService>();
+
             services.AddControllersWithViews();
         }
 

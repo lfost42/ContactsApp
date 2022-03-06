@@ -1,6 +1,6 @@
 using System;
 
-namespace GuestbookUI.Models
+namespace Guestbook.Models
 {
     public class ErrorViewModel
     {
