@@ -6,7 +6,7 @@ This is my first full-stack project, currently a minimal viable product. I am pu
 
 https://lfost42-guestbook.herokuapp.com/
 
-![My App](./Guestbook/wwwroot/img/app.png)
+![My App](./GuestbookUI/wwwroot/img/app.png)
 
 ## Planned updates:
 
