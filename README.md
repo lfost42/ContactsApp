@@ -1,30 +1,29 @@
 # Guestbook
 
-A study in image services, CRUD applications, and object-relational mapping with Entity Framework and PostgreSQL.
+Coding Challenge: A guestbook with image services and CRUD applications using code-first Entity Framework with PostgreSQL.
 
-This is my first full-stack project, currently a minimal viable product. I am putting it aside while I study software design and will restructure using the DAO design pattern to make it more modular, scalable, and maintainable. 
+Application: If I can make the guestbook layout and options customizeable, this is something users can deploy to a free hosting service for events as a keepsake (virtual guestbook). 
 
 https://lfost42-guestbook.herokuapp.com/
 
 ![My App](./GuestbookUI/wwwroot/img/app.png)
 
-## Planned updates:
+## Experiments and Plans
 
-- Implement a class library
+MVP: A working guestbook that allows a user to upload an image, add social media information, and leave a message. 
 
-- Add unit testing
+Completed Updates:
 
-- Popup-windows for Create/View/Edit/Delete screens (SweetAlert?)
+1. Build a class library and move methods into classes. 
 
-- Allow image to be modified after creation
+Planned Updates
 
-## Variations:
+2. Implement DAO (Data Access Object) pattern to decouple the data access layer from the user interface. 
+3. Add Unit Testing
+4. Popup-windows or modals for CRUD screens
+5. Allow image service to modify images after creation
+6. Implement identity service to DELETE permissions. 
 
-The app started off as a contacts database with name, birthdate, phone number, email, linkedin, and website. Once deployed, it didn't make sense as a database app without identity security so I transformed it into a guestbook. 
+## Origins
 
-## Database Modifications:
-
-While converting the app to a guestbook, I didn't expect users to want to leave their birthdate so I changed it to date. I also didn't expect users to want to post their phone number in the open so that column was deleted. At some point I decided to add the Message column which I would have renamed the phone number column if I had known ahead of time I was going to need it. 
-
-## Issues:
-I think Image properties should have been place in another class to follow SRP. I will revisit that when I study image services further. 
+This was my first ASP.NET MVC Core application. I used it to develop a workflow in creating web pages and learned to work with Entity Framework in a code-first situation. I'm trying to find reasons to keep it by thinking of upgrades because it was my first .NET web application!
