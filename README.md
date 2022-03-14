@@ -2,7 +2,7 @@
 
 Coding Challenge: A guestbook with image services and CRUD applications using code-first Entity Framework with PostgreSQL.
 
-Application: If I can make the guestbook layout and options customizeable, this is something users can deploy to a free hosting service for events as a keepsake (virtual guestbook). 
+Application: Users can customize and deploy this to a free hosting service as a keepsake for special events (virtual guestbook). 
 
 https://lfost42-guestbook.herokuapp.com/
 
@@ -22,8 +22,8 @@ Planned Updates
 3. Add Unit Testing
 4. Popup-windows or modals for CRUD screens
 5. Allow image service to modify images after creation
-6. Implement identity service to DELETE permissions. 
+6. Implement identity service for DELETE permissions. 
 
 ## Origins
 
-This was my first ASP.NET MVC Core application. I used it to develop a workflow in creating web pages and learned to work with Entity Framework in a code-first situation. I'm trying to find reasons to keep it by thinking of upgrades because it was my first .NET web application!
+This was my first ASP.NET Core MVC application. I used it to develop a workflow in developing ASP.NET web pages. 
