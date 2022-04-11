@@ -1,0 +1,100 @@
+@model IEnumerable<Guestbook.Models.Guest>
+@inject Guestbook.Services.Interfaces.IImageService _imageService
+
+<link rel="stylesheet" href="//cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css" />
+<script src="https://kit.fontawesome.com/5db21ba9c6.js" crossorigin="anonymous"></script>
+<link href="/css/site.css" rel="stylesheet" />
+@{
+    ViewData["App"] = "GUESTBOOK";
+}
+
+<h1 class="appname">Lynda's Guestbook</h1>
+
+<p>
+    <div class="col-md-12 py-2 px-2">
+        <a type="button" class="button" asp-action="Create">Click to sign my guestbook!</a>
+    </div>
+</p>
+
+<table class="table" id="GuestTable">
+    <thead>
+        <tr>
+            <th class="name">
+                Name
+            </th>
+
+            <th class="links">Links</th>
+
+            <th class="message">Message</th>
+
+            <th class="mod"></th>
+
+        </tr>
+
+
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td style="text-align:center">
+                    <div class="photo col-12" style="text-align:center">
+                        <img height=75 src="@_imageService.ConvertByteArrayToFile(item.ImageData, item.ImageType)" />
+                    </div>
+                    <div class="col-12" style="text-align:center">
+                        @Html.DisplayFor(modelItem => item.FullName)
+                    </div>
+                </td>
+                <td>
+                    <div class="row">
+                        <div class="mr-1 col-lg-4 col-md-12 col-lg-4">
+                            <a href="mailto:@item.Email"><i class="links far fa-envelope fa-2x" alt="email"></i></a>
+                        </div>
+                        <div class="mr-1 col-lg-4 col-md-12 col-lg-4">
+                            <a href="@item.Linkedin"><i class="links fab fa-linkedin fa-2x" alt="linkedin"></i></a>
+                        </div>
+                        <div class="mr-1 col-lg-4 col-md-12 col-lg-4">
+                            <a href="@item.Website"><i class="links far fa-link fa-2x" alt="website"></i></a>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="message">
+                        @Html.DisplayFor(modelItem => item.Message)
+                    </div>
+                </td>
+
+                <td>
+                    <div class="row">
+                        <div class="mr-1 mb-1 col-md-12 col-lg-4">
+                            <a type="button" class="btn-success btn" asp-action="Details" asp-route-id="@item.Id" alt="view"><i class="fas fa-eye"></i></a>
+                        </div>
+                        <div class="mr-1 mb-1 col-md-12 col-lg-4">
+                            <a type="button" class="btn-warning btn" asp-action="Edit" asp-route-id="@item.Id" alt="edit"><i class="fas fa-edit"></i></a>
+                        </div>
+                        <div class="mr-1 col-md-12 col-lg-4">
+                            <a type="button" class="btn-danger btn" asp-action="Delete" asp-route-id="@item.Id" alt="delete"><i class="fa fa-trash"></i></a>
+                        </div>
+                    </div>
+                </td>
+
+            </tr>
+
+        }
+
+    </tbody>
+</table>
+
+@section scripts {
+    <script src="//cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+    <script>$(document).ready(function () {
+            $('#GuestTable').DataTable();
+        });</script>
+    <script>$(function () {
+            $('a').each(function () {
+                (!$(this).attr('href')) ? $(this).hide() : $(this).show();
+            });
+        });</script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+}

@@ -1,0 +1,45 @@
+@{
+    ViewData["App"] = "GUESTBOOK";
+}
+
+
+
+<main>
+    <div class="container col-xxl-8">
+        <div class="row row-cols-1 row-cols-lg-2">
+            <div class="col order-last order-lg-first">
+                <h2 class="display-5 fw-bold 1h-1 mb-3 appname">@ViewData["App"]: <br>A Coding Project</h2>
+                <h4 class="lead">A database application using PostgreSQL.</h4>
+
+                @Html.ActionLink("Codesite", "Code", "Home", null, new { @class = "button" })
+                @Html.ActionLink("Testsite", "Tests", "Home", null, new { @class = "button" })
+
+                <ul class="fa-ul pt-2 checklist">
+
+                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>SOLID Principles</li>
+                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>ASP.NET Core Fundamentals</li>
+                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>MVC Design Pattern</li>
+                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>CRUD Applications with PostgreSQL</li>
+                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Object Relational Mapping with Entity Framework</li>
+                </ul>
+
+                <div class="col-12 px-4 me-md-2">
+                    <a type="button" class="button" asp-controller="Guests" asp-action="Index">See App</a>
+                </div>
+
+                <div class="fw-bold mt-5">
+                    <div class="d-flex">
+                        <div class="row">
+                            <div class="col"><img src="/img/htmlcssjsbs.png" height="85" width="85"></div>
+                            <div class="col"><img src="/img/csharp.png" height="55" width="55"></div>
+                            <div class="col"><img src="/img/netmvc.png" height="75" width="75"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <img src="/img/app.png" class="img-fluid center-block d-block mx-auto" alt="@ViewData["App"] Logo" width="600" height="400">
+            </div>
+        </div>
+    </div>
+</main>

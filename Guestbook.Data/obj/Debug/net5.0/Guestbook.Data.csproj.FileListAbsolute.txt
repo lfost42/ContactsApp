@@ -1,0 +1,12 @@
+/Users/lynda/Desktop/repo/Guestbook/Guestbook.Data/bin/Debug/net5.0/Guestbook.Data.deps.json
+/Users/lynda/Desktop/repo/Guestbook/Guestbook.Data/bin/Debug/net5.0/Guestbook.Data.dll
+/Users/lynda/Desktop/repo/Guestbook/Guestbook.Data/bin/Debug/net5.0/ref/Guestbook.Data.dll
+/Users/lynda/Desktop/repo/Guestbook/Guestbook.Data/bin/Debug/net5.0/Guestbook.Data.pdb
+/Users/lynda/Desktop/repo/Guestbook/Guestbook.Data/obj/Debug/net5.0/Guestbook.Data.csproj.AssemblyReference.cache
+/Users/lynda/Desktop/repo/Guestbook/Guestbook.Data/obj/Debug/net5.0/Guestbook.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lynda/Desktop/repo/Guestbook/Guestbook.Data/obj/Debug/net5.0/Guestbook.Data.AssemblyInfoInputs.cache
+/Users/lynda/Desktop/repo/Guestbook/Guestbook.Data/obj/Debug/net5.0/Guestbook.Data.AssemblyInfo.cs
+/Users/lynda/Desktop/repo/Guestbook/Guestbook.Data/obj/Debug/net5.0/Guestbook.Data.csproj.CoreCompileInputs.cache
+/Users/lynda/Desktop/repo/Guestbook/Guestbook.Data/obj/Debug/net5.0/Guestbook.Data.dll
+/Users/lynda/Desktop/repo/Guestbook/Guestbook.Data/obj/Debug/net5.0/ref/Guestbook.Data.dll
+/Users/lynda/Desktop/repo/Guestbook/Guestbook.Data/obj/Debug/net5.0/Guestbook.Data.pdb
