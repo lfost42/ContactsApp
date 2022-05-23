@@ -6,7 +6,7 @@ Application: Users can customize and deploy this to a free hosting service as a 
 
 https://lfost42-guestbook.herokuapp.com/
 
-![My App](./GuestbookUI/wwwroot/img/app.png)
+![My App](./app.png)
 
 ## Experiments and Plans
 
